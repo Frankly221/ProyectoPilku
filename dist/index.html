@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pillku Rooftop Huarmey: cocteles, piqueos, música y buenos momentos.">
+  <title>Pillku Rooftop | Huarmey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">P</span>
+      <span>PILLKU <small>ROOFTOP</small></span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav id="main-nav" aria-label="Navegación principal">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#carta">Carta</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">Huarmey · Perú</p>
+        <h1>Buenos tragos.<br><span>Mejores momentos.</span></h1>
+        <p>Un rooftop para compartir cocteles, piqueos y música con tu gente.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#reserva">Reserva tu mesa</a>
+          <a class="button ghost" href="#carta">Ver la carta</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de cocteles y música">
+        <span class="sun"></span>
+        <span class="glass glass-one">🍹</span>
+        <span class="glass glass-two">🍸</span>
+        <span class="note">♪</span>
+        <p>COCTELES<br>+ MÚSICA</p>
+      </div>
+    </section>
+
+    <section class="intro" id="nosotros">
+      <div>
+        <p class="eyebrow">Nuestra experiencia</p>
+        <h2>Tu punto de encuentro en Huarmey</h2>
+      </div>
+      <p>En Pillku Rooftop combinamos sabores, música y un ambiente alegre para disfrutar con amigos, en pareja o en una celebración especial.</p>
+    </section>
+
+    <section class="features" aria-label="Experiencias">
+      <article><span>🍹</span><h3>Cocteles</h3><p>Clásicos y combinaciones de la casa.</p></article>
+      <article><span>🍽️</span><h3>Piqueos</h3><p>Opciones para compartir en la mesa.</p></article>
+      <article><span>🎶</span><h3>Música</h3><p>Noches para cantar, bailar y disfrutar.</p></article>
+      <article><span>🌇</span><h3>Rooftop</h3><p>Un ambiente colorido con vista a la ciudad.</p></article>
+    </section>
+
+    <section class="menu-section" id="carta">
+      <div class="section-heading">
+        <div><p class="eyebrow">Carta de muestra</p><h2>Algo rico para cada momento</h2></div>
+        <p>Productos y precios referenciales para el prototipo.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card pink"><span>🍓</span><div><h3>Coctel de frutos rojos</h3><p>Dulce, fresco y frutal.</p></div><strong>S/ 18</strong></article>
+        <article class="menu-card yellow"><span>🍋</span><div><h3>Chilcano clásico</h3><p>Pisco, ginger ale y limón.</p></div><strong>S/ 16</strong></article>
+        <article class="menu-card green"><span>🥑</span><div><h3>Nachos Pillku</h3><p>Para compartir con la mesa.</p></div><strong>S/ 22</strong></article>
+        <article class="menu-card purple"><span>🍗</span><div><h3>Alitas de la casa</h3><p>Crocantes con salsa especial.</p></div><strong>S/ 24</strong></article>
+      </div>
+      <p class="notice">* Carta ilustrativa. Confirma disponibilidad y precios al realizar tu reserva.</p>
+    </section>
+
+    <section class="events" id="eventos">
+      <div class="event-poster"><span>VIERNES</span><strong>NOCHE<br>DE MÚSICA</strong><small>Agenda referencial</small></div>
+      <div class="event-copy">
+        <p class="eyebrow light">Eventos y promociones</p>
+        <h2>Siempre hay una razón para volver</h2>
+        <p>Consulta en Instagram las fechas de música en vivo, celebraciones y promociones de la semana.</p>
+        <a class="button light-button" href="https://www.instagram.com/pillkuhuarmey/" target="_blank" rel="noopener">Ver Instagram ↗</a>
+      </div>
+    </section>
+
+    <section class="visit" id="contacto">
+      <div class="visit-info">
+        <p class="eyebrow">Visítanos</p>
+        <h2>Nos vemos en Pillku</h2>
+        <div class="info-row"><span>📍</span><p><strong>Huarmey, Áncash</strong><br>Consulta la dirección exacta por Instagram.</p></div>
+        <div class="info-row"><span>🕒</span><p><strong>Horario de atención</strong><br>Confirma el horario del día antes de visitarnos.</p></div>
+        <div class="info-row"><span>📱</span><p><strong>@pillkuhuarmey</strong><br>Escríbenos para consultas y reservas.</p></div>
+      </div>
+      <div class="reservation" id="reserva">
+        <p class="eyebrow">Reserva rápida</p>
+        <h2>Prepara tu visita</h2>
+        <form id="reservation-form">
+          <label>Nombre<input name="name" required placeholder="Tu nombre"></label>
+          <div class="form-row">
+            <label>Fecha<input name="date" type="date" required></label>
+            <label>Personas<select name="people"><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select></label>
+          </div>
+          <button class="button primary full" type="submit">Enviar por WhatsApp</button>
+          <p class="form-note">Se abrirá WhatsApp con tu solicitud lista para enviar.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">P</span><span>PILLKU <small>ROOFTOP</small></span></a>
+    <p>Cocteles · Piqueos · Música · Huarmey</p>
+    <a href="https://www.instagram.com/pillkuhuarmey/" target="_blank" rel="noopener">Instagram ↗</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
